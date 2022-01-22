@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+        <title>WebDeveloper</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="cssformulario.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    </head>
+    <body>
+        <section class="hero is-fullheight">
+            <div class="column is-4 is-offset-4">
+                <h1 class="title has-text-centered">WebDeveloper</h1>
+                <form class="box">
+                    <h2 class="subtitle is-6 has-text-centered">Formulario de afiliación</h2>
+                    <div class="field mb-5">
+                        <div class="control has-icons-right">
+                            <input class="input is-small is-primary" type="text" id="NombreCompleto" placeholder="Nombre completo">
+                            <span class="icon is-small is-right">
+                                <i class="fa fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="field mb-5">
+                        <div class="control has-icons-right">
+                            <input class="input is-small is-primary" type="email" id="Email" placeholder="Email">
+                            <span class="icon is-small is-right">
+                                <i class="fa fa-envelope"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="field mb-5">
+                        <div class="control has-icons-right">
+                            <input class="input is-small is-primary" type="text" id="Telefono" placeholder="Telefono">
+                            <span class="icon is-small is-right">
+                                <i class="fa fa-phone"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="field mb-5">
+                        <div class="field has-addons">                            
+                            <input class="input is-small" type="text" id="Gusto">                          
+                            <button class="button is-small is-primary is-outlined" type="button" id="Agregar">Gustos</button>
+                        </div>
+                    </div>
+                    <div class="content has-text-left">
+                        <a href=#>Ir al sitio web</a>
+                    </div> 
+                    <div class="box">  
+                        <div class="columns is-multiline is-vcentered">                   
+                        <div class="column is-2 has-text-centered" id="icono">
+                            <span class="icon">
+                                <i class="far fa-flag fa-2x" style="color: white;"></i>
+                            </span>
+                        </div>
+                        <div class="column pt-0">
+                            <table class="table is-bordered is-fullwidth has-text-centered" id="MiTabla">                           
+                                <tr>
+                                    <th>Gustos</th> 
+                                    <th>%</th>  
+                                    <th>edit</th>   
+                                </tr>  
+                            </table>
+                        </div>
+                        </div>  
+                    </div>
+                </form>
+            </div>
+        </section> 
+    </body>
+    <script src="/Parcial/script.js"></script>
+</html>

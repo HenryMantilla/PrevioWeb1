@@ -1,0 +1,12 @@
+.hero{
+    background-color: #a8a8a8;
+}
+
+#icono{
+    background-color: rgb(53, 160, 53);
+    border-radius: 10%;
+}
+
+#Gusto:hover{
+    border-color: none;
+}
